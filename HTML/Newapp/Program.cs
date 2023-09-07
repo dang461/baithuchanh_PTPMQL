@@ -1,11 +1,19 @@
-﻿// See https://aka.ms/new-console-template for more information
-using System.Runtime.CompilerServices;
+﻿internal class Program{
+    private static void Main(string[] args){
+    int a;
+    System.Console.Write("gia tri cua a la: ");
+    a=Convert.ToInt32(Console.ReadLine());
+    int b; 
+    System.Console.Write("gia tri cua b la: ");
+    b=Convert.ToInt32(Console.ReadLine());
+    int c=a-b;
+    int d=a*b;
+    int e=a/b;
+    int f=a%b;
+    System.Console.WriteLine("gia tri cua c= " +c);
+    System.Console.WriteLine("gia tri cua d= " +d);
+    System.Console.WriteLine("gia tri cua e= " +e);
+    System.Console.WriteLine("va phan du la: " +f);
+    }
 
-Console.writeline("Hello, world!");
-Console.writeline("LeHaiDang");
-
-//khai bao ho va ten 
-const string hoTen = "Le Hai Dang";
-const int tuoi = 23;
-Console.writeline("{0} , {1}", hoTen, tuoi);
-
+}
