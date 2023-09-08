@@ -12,8 +12,18 @@
     int f=a%b;
     System.Console.WriteLine("gia tri cua c= " +c);
     System.Console.WriteLine("gia tri cua d= " +d);
-    System.Console.WriteLine("gia tri cua e= " +e);
+    System.Console.WriteLine("gia tri cua e= " +e,"vu phan du la: " +f);
     System.Console.WriteLine("va phan du la: " +f);
+    if (a>b){
+
+        System.Console.Write("a lon hon b ");
+
+    }else if(a<b){
+        System.Console.Write("a nho hon b ");
+
+    }else{
+        System.Console.Write("a bang b ");
+    }
     }
 
 }
